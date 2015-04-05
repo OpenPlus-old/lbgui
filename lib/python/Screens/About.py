@@ -112,7 +112,7 @@ class About(Screen):
 		self["lab1"] = StaticText(_("openATV"))
 		self["lab2"] = StaticText(_("By openATV Image Team"))
 		model = None
-		self["lab3"] = StaticText(_("Support at") + " www.opena.tv")
+		self["lab3"] = StaticText(_("Support at") + " www.linux-box.es")
 
 		AboutText = getAboutText()[0]
 
@@ -577,7 +577,7 @@ class ViewGitLog(Screen):
 		fd = open('/etc/' + self.logtype + '-git.log', 'r')
 		releasenotes = fd.read()
 		fd.close()
-		releasenotes = releasenotes.replace('\nopenplus: build', "\n\nopenplus: build")
+		releasenotes = releasenotes.replace('\nopenatv: build', "\n\nopenatv: build")
 		self["text"].setText(releasenotes)
 		summarytext = releasenotes
 		try:

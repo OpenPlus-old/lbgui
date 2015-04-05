@@ -28,20 +28,20 @@ if getMachineBrand() == "Vu+":
 
 #############################################################################################################
 image = 0 # 0=openATV / 1=openMips
-#if distro.lower() == "openmips":
-#	image = 1
-#elif distro.lower() == "openatv":
-#	image = 0
-#if ImageVersion3 == '':
-feedurl_atv = 'http://feeds.linux-box.es/openplus/%s' %ImageVersion
-#else:
-#	feedurl_atv = 'http://images2.mynonpublic.com/openatv/%s' %ImageVersion3
-#if ImageVersion == '4.1' or ImageVersion == '4.0' or ImageVersion == '3.0' or ImageVersion == '4.3':
-#	ImageVersion2= '4.2'
-#else:
-#	ImageVersion2= '4.1'
-feedurl_atv2= 'http://feeds.linux-box.es/openplus/%s' %ImageVersion2
-feedurl_om = 'http://feeds.linux-box.es/openplus/'
+if distro.lower() == "openmips":
+	image = 1
+elif distro.lower() == "openatv":
+	image = 0
+if ImageVersion3 == '':
+	feedurl_atv = 'http://images.mynonpublic.com/openatv/%s' %ImageVersion
+else:
+	feedurl_atv = 'http://images2.mynonpublic.com/openatv/%s' %ImageVersion3
+if ImageVersion == '4.1' or ImageVersion == '4.0' or ImageVersion == '3.0' or ImageVersion == '4.3':
+	ImageVersion2= '4.2'
+else:
+	ImageVersion2= '4.1'
+feedurl_atv2= 'http://images.mynonpublic.com/openatv/%s' %ImageVersion2
+feedurl_om = 'http://image.openmips.com/4.2'
 imagePath = '/media/hdd/images'
 flashPath = '/media/hdd/images/flash'
 flashTmp = '/media/hdd/images/tmp'

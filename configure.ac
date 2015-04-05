@@ -1,5 +1,5 @@
 AC_INIT([enigma2],[3.0.0],[enigma2-devel@lists.elitedvb.net])
-AM_INIT_AUTOMAKE([dist-bzip2 no-define tar-pax -Wno-portability foreign])
+AM_INIT_AUTOMAKE([dist-bzip2 no-define tar-pax -Wno-portability])
 AC_CONFIG_HEADERS([enigma2_config.h])
 
 # Silent rules are available since 1.11, but older versions
@@ -375,9 +375,13 @@ if test "$BOXTYPE" == "et4x00" -o "$BOXTYPE" == "et5x00" -o "$BOXTYPE" == "et6x0
 	AC_DEFINE(KEY_F3_TO_KEY_LIST, 1,[define when rc sends a KEY_F3 event for its KEY_LIST key])
 fi
 
+if test "$BOXTYPE" == "et8500"; then
+	AC_DEFINE(FORCE_BLENDING_ACCELERATION, 1,[define when the framebuffer acceleration has alphablending support, but detection slow down all])
+fi
 
 if test "$BOXTYPE" == "et7x00"; then
 	AC_DEFINE(KEY_F1_TO_KEY_F2, 1,[define when rc sends a KEY_F1 event for its KEY_F2 key])
+	AC_DEFINE(FORCE_BLENDING_ACCELERATION, 1,[define when the framebuffer acceleration has alphablending support, but detection slow down all])
 fi
 
 if test "$BOXTYPE" == "xc7362"; then
@@ -620,32 +624,6 @@ lib/python/Plugins/SystemPlugins/WirelessLan/meta/Makefile
 lib/python/Plugins/SystemPlugins/SkinSelector/Makefile
 lib/python/Plugins/SystemPlugins/SkinSelector/meta/Makefile
 lib/python/Plugins/SystemPlugins/AnimationSetup/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/meta/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/Daemons/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/images/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/locale/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/locale/de/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/locale/de/LC_MESSAGES/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/locale/es/Makefile             
-lib/python/Plugins/SystemPlugins/LBpanel/locale/es/LC_MESSAGES/Makefile    
-lib/python/Plugins/SystemPlugins/LBpanel/libs/CCcamInfo/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/CCcamInfo/locale/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/CCcamInfo/locale/de/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/CCcamInfo/locale/de/LC_MESSAGES/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/CCcamInfo/locale/es/Makefile           
-lib/python/Plugins/SystemPlugins/LBpanel/libs/CCcamInfo/locale/es/LC_MESSAGES/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/GboxSuite/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/OscamInfo/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/OscamInfo/locale/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/OscamInfo/locale/de/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/OscamInfo/locale/de/LC_MESSAGES/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/OscamInfo/locale/es/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/libs/OscamInfo/locale/es/LC_MESSAGES/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/script/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/script/libmem/Makefile
-lib/python/Plugins/SystemPlugins/LBpanel/templates/Makefile
 lib/python/Tools/Makefile
 po/Makefile
 main/Makefile

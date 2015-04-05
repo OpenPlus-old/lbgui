@@ -92,11 +92,10 @@ DEFAULT_DISPLAY_SKIN = "skin_display.xml"
 config.skin.display_skin = ConfigText(default=DEFAULT_DISPLAY_SKIN)
 
 # Create etc/chipset for iplusHD
-if not os.path.isfile("/etc/chipset"):
-	with open ('/etc/chipset', 'a') as f:
+if not os.path.isfile("/etc/chipset"):       
+        with open ('/etc/chipset', 'a') as f:
 		f.write ("7400")
 		f.close()
-                                        
                                         
 profile("LoadSkin")
 try:
