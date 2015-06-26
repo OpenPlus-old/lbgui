@@ -1428,6 +1428,8 @@ void eEPGCache::save()
 	fclose(f);
 }
 
+
+
 eEPGCache::channel_data::channel_data(eEPGCache *ml)
 	:cache(ml)
 	,abortTimer(eTimer::create(ml)), zapTimer(eTimer::create(ml)), state(-2)

@@ -1324,7 +1324,7 @@ msgstr "Nastavenie tlačidiel"
 msgid "Button setup"
 msgstr "Nastavenie tlačidiel"
 
-msgid "By openATV Image Team"
+msgid "By openplus Image Team"
 msgstr "Od OpenATV Image Team"
 
 msgid "Bypass HDMI EDID Check"
@@ -8658,7 +8658,7 @@ msgid ""
 "The status of the current update could not be checked because http://www."
 "linux-box.es could not be reached for some reason"
 msgstr ""
-"Stav aktualizácie nie je možné overiť, pretože stránka http://www.opena. tv "
+"Stav aktualizácie nie je možné overiť, pretože stránka http://www.linux-box.es tv "
 "nie je dostupná!"
 
 msgid "The timer file (timers.xml) is corrupt and could not be loaded."
