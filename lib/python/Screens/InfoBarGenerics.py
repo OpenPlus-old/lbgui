@@ -3442,8 +3442,8 @@ class InfoBarINFOpanel:
 			if config.plugins.infopanel_redpanel.selection.value =='0':
 				self.instantRecord()
 			elif config.plugins.infopanel_redpanel.selection.value =='1':
-				from Plugins.Extensions.Infopanel.plugin import Infopanel
-				self.session.open(Infopanel, services = self.servicelist)
+				from Plugins.SystemPlugins.LBpanel.plugin import LBPanel2
+				self.session.open(LBPanel2)
 			elif config.plugins.infopanel_redpanel.selection.value == '2':
 				self.session.open(TimerEditList)
 			elif config.plugins.infopanel_redpanel.selection.value == '3':
@@ -3464,7 +3464,8 @@ class InfoBarINFOpanel:
 				from Plugins.Extensions.Infopanel.plugin import Infopanel
 				self.session.open(Infopanel, services = self.servicelist)
 			elif config.plugins.infopanel_redpanel.selectionLong.value == '2':
-				self.session.open(TimerEditList)
+				from Plugins.SystemPlugins.LBpanel.plugin import LBCamEmu
+				self.session.open(LBCamEmu.emuSel2)
 			elif config.plugins.infopanel_redpanel.selectionLong.value == '3':
 				self.showMovies()
 			elif config.plugins.infopanel_redpanel.selectionLong.value == '4':
