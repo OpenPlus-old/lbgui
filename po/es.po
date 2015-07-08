@@ -3198,7 +3198,7 @@ msgid "Enable ViaSat EPG"
 msgstr "Habilitar ViaSat EPG"
 
 msgid "Enable Virgin EPG"
-msgstr "Habilitar Netmed EPG"
+msgstr "Habilitar Virgin EPG"
 
 msgid ""
 "Enable and set the duration of the second infobar (press OK twice) that may "
