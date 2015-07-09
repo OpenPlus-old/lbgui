@@ -3520,7 +3520,7 @@ msgstr "Ventilador %d"
 #
 #, python-format
 msgid "Fan %d PWM"
-msgstr "Ventilador %d PWM"
+msgstr "PWM ventilador %d"
 
 #
 #, python-format
@@ -8103,12 +8103,15 @@ msgstr "Menú de apagado"
 #
 #, python-format
 msgid "Standby Fan %d PWM"
-msgstr "%d PWM del ventilador en modo de espera"
+msgstr "PWM ventilador %d en modo de espera"
+
+msgid "Standby fan %d PWM"
+msgstr "PWM ventilador %d en modo de espera"
 
 #
 #, python-format
 msgid "Standby Fan %d Voltage"
-msgstr "%d voltaje del ventilador en modo de espera"
+msgstr "Voltaje ventilador %d en modo de espera"
 
 msgid "Start"
 msgstr "Inicio"
@@ -12695,6 +12698,9 @@ msgstr "Mostrar CoolSingleGuide"
 msgid "Show epg"
 msgstr "Ver EPG"
 
+msgid "Show EPG"
+msgstr "Ver EPG"
+
 #
 msgid "Create"
 msgstr "Crear"
@@ -14771,7 +14777,7 @@ msgstr "Salir y mostrar mensaje"
 msgid "Show recording symbol depending on recording type"
 msgstr "Mostrar símbolo de grabación según tipo de grabación"
 
-msgid "Show warning before box restart bases on recording type"
+msgid "Show warning before box restart based on recording type"
 msgstr "Mostrar aviso antes de reiniciar por una grabación"
 
 msgid "any recordings"
@@ -17141,3 +17147,54 @@ msgstr "Ucraniano"
 
 msgid "Undetermined"
 msgstr "Indeterminado"
+
+msgid "Sleeptimer Standby"
+msgstr "Temporizador de modo de espera"
+
+msgid "Sleeptimer DeepStandby"
+msgstr "Temporizador de apagado"
+
+msgid "Animations"
+msgstr "Animaciones"
+
+msgid "Temperature and fan control"
+msgstr "Temperatura y ventilador"
+
+msgid "Disable Animations"
+msgstr "Desactivar animaciones"
+
+msgid "Animation Setup"
+msgstr "Configurar animaciones"
+
+msgid "Setting"
+msgstr "Opciones"
+
+msgid "Animation Speed"
+msgstr "Velocidad de animación"
+
+msgid "* current animation"
+msgstr "* animación actual"
+
+msgid "Simple fade"
+msgstr "Desvanecer"
+
+msgid "Grow drop"
+msgstr "Crecer desde arriba"
+
+msgid "Grow from left"
+msgstr "Crecer desde la izquierda"
+
+msgid "Popup"
+msgstr "Ventana emergente"
+
+msgid "Slide drop"
+msgstr "Deslizar desde arriba"
+
+msgid "Slide left to right"
+msgstr "Deslizar de izquierda a derecha"
+
+msgid "Slide top to bottom"
+msgstr "Deslizar de arriba a abajo"
+
+msgid "Stripes"
+msgstr "Rayas"
