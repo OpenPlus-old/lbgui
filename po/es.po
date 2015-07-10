@@ -802,7 +802,7 @@ msgid "Splitscreen"
 msgstr "Pantalla completa dividida"
 
 msgid "Side by side"
-msgstr "Pantalla difivida"
+msgstr "Pantalla dividida"
 
 msgid "Big PiP"
 msgstr "Imagen de un canal y audio de otro"
@@ -2742,7 +2742,7 @@ msgstr "Deshabilitar"
 
 #
 msgid "Disable Picture in Picture"
-msgstr "Deshabilitar Picture in Picture"
+msgstr "Desactivar Picture in Picture"
 
 msgid "Disable background scanning"
 msgstr "Deshabilitar la búsqueda en segundo plano"
