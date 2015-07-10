@@ -17065,6 +17065,10 @@ msgid "Dutch"
 msgstr "Holandés"
 
 # Language
+msgid "Deutsch"
+msgstr "Alemán"
+
+# Language
 msgid "English"
 msgstr "Inglés"
 
