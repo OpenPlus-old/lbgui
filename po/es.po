@@ -792,6 +792,9 @@ msgstr "Activar Picture in Picture"
 msgid "Setup Picture in Picture"
 msgstr "Configurar Picture in Picture"
 
+msgid "Picture in Picture Setup"
+msgstr "Configurar Picture in Picture"
+
 #
 msgid "Activate network settings"
 msgstr "Activar ajustes de red"
