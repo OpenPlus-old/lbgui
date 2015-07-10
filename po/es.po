@@ -795,6 +795,18 @@ msgstr "Configurar Picture in Picture"
 msgid "Picture in Picture Setup"
 msgstr "Configurar Picture in Picture"
 
+msgid "Cascade PiP"
+msgstr "Cascada"
+
+msgid "Splitscreen"
+msgstr "Pantalla completa dividida"
+
+msgid "Side by side"
+msgstr "Pantalla difivida"
+
+msgid "Big PiP"
+msgstr "Imagen de un canal y audio de otro"
+
 #
 msgid "Activate network settings"
 msgstr "Activar ajustes de red"
