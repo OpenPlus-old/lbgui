@@ -17217,3 +17217,67 @@ msgstr "Deslizar de arriba a abajo"
 
 msgid "Stripes"
 msgstr "Rayas"
+
+# LBTunerServer
+msgid "Allow Streaming From Box Tuners"
+msgstr "Permitir streaming de sintonizadores"
+
+# LBTunerServer
+msgid "Build Complete!"
+msgstr "¡Construcción completada!"
+
+# LBTunerServer
+msgid "Build Server"
+msgstr "Construir servidor"
+
+# LBTunerServer
+msgid "Disable Server"
+msgstr "Desactivar servidor"
+
+# LBTunerServer
+msgid "Server Disabled"
+msgstr "Servidor desactivado"
+
+# LBTunerServer
+msgid "Server Enabled"
+msgstr "Servidor activado"
+
+# LBTunerServer
+msgid "Server now disabled!"
+msgstr "¡El servidor está desactivado!"
+
+# LBTunerServer
+msgid "Sorry, but you need to have a device mounted at '/media/hd'"
+msgstr "Lo siento, pero necesitas tener montado '/media/hdd'"
+
+# LBTunerServer
+msgid "Sorry, but you need to have a device mounted at '/media/usb'"
+msgstr "Lo siento, pero necesitas tener montado '/media/usb'"
+
+# LBTunerServer
+msgid "Tuner Server"
+msgstr "Sintonizador remoto"
+
+# LBTunerServer
+msgid "Tuner Server Disabled."
+msgstr "Sintonizador remoto desactivado."
+
+# LBTunerServer
+msgid "Tuner Server setup"
+msgstr "Configurar sintonizador remoto"
+
+# LBTunerServer
+msgid ""
+"Your server is now being deleted\n"
+"Please Wait ..."
+msgstr ""
+"Se está borrando su servidor\n"
+"Por favor, espere..."
+
+# LBTunerServer
+msgid ""
+"Your server is now building\n"
+"Please wait ..."
+msgstr ""
+"Se está construyendo su servidor\n"
+"Por favor, espere..."
