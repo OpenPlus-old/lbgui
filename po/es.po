@@ -3601,7 +3601,7 @@ msgstr ""
 
 #
 msgid "Filesystem Check"
-msgstr "Comprobar sistema de ficheros"
+msgstr "Comprobar sistema de archivos"
 
 #
 msgid "Filesystem contains uncorrectable errors"
@@ -12576,7 +12576,7 @@ msgstr ""
 
 #
 msgid "because of the used filesystem the back-up\n"
-msgstr "debido al sistema de ficheros de la copia de seguridad\n"
+msgstr "debido al sistema de archivos de la copia de seguridad\n"
 
 #
 msgid "will take about 3-12 minutes for this system\n"
