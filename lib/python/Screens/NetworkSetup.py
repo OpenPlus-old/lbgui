@@ -2220,7 +2220,7 @@ class RemoteTunerServer(Screen):
 	def doRemove(self, callback, pkgname):
 		self.message = self.session.open(MessageBox,_("please wait..."), MessageBox.TYPE_INFO, enable_input = False)
 		self.message.setTitle(_('Removing Service'))
-		self.Console.ePopen('/usr/bin/opkg remove ' + pkgname + ' --force-remove --autoremove', callback)
+		self.Console.ePopen('/usr/bin/opkg remove ' + pkgname + ' enigma2-plugin-extensions-lbtunerserver' + ' --force-remove --autoremove --force-depends', callback)
 
 	def removeComplete(self,result = None, retval = None, extra_args = None):
 		self.session.open(TryQuitMainloop, 2)
