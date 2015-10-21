@@ -1,7 +1,7 @@
 # Spanish translations for Enigma2.
 #
-msgid ""
-msgstr ""
+msgid ""msgid "Translations"
+msgstr "Traducciones"
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-05 14:38+0000\n"
@@ -16833,6 +16833,9 @@ msgstr "Temperatura del sistema:\t%s"
 
 msgid "Processor temperature:\t%s"
 msgstr "Temperatura del procesador:\t%s"
+
+msgid "Translations"
+msgstr "Traducciones"
 
 msgid "Clone TV screen to LCD"
 msgstr "Clonar pantalla de TV al LCD"
