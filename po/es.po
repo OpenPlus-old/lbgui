@@ -16805,7 +16805,7 @@ msgid "CPU:\t\t%s"
 msgstr "CPU:\t\t%s"
 
 msgid "Cores:\t\t%s"
-msgstr "Núcleos:\t\t %s"
+msgstr "Núcleos:\t\t%s"
 
 msgid "Version:\t\t%s"
 msgstr "Versión:\t\t%s"
