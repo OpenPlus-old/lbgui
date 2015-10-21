@@ -16795,38 +16795,38 @@ msgstr "Preguntar al usuario (con ‘sí’ como predeterminado)"
 msgid "Ask user (with default as 'no')"
 msgstr "Preguntar al usuario (con ‘no’ como predeterminado)"
 
-msgid "Model:\t%s %s\n"
-msgstr "Modelo:\t%s %s\n"
+msgid "Model:\t\t%s %s\n"
+msgstr "Modelo:\t\t%s %s\n"
 
-msgid "Chipset:\t%s"
-msgstr "Chipset:\t%s"
+msgid "Chipset:\t\t%s"
+msgstr "Chipset:\t\t%s"
 
-msgid "CPU:\t%s"
-msgstr "CPU:\t%s"
+msgid "CPU:\t\t%s"
+msgstr "CPU:\t\t%s"
 
-msgid "Cores:\t%s"
-msgstr "Núcleos:\t %s"
+msgid "Cores:\t\t%s"
+msgstr "Núcleos:\t\t %s"
 
-msgid "Version:\t%s"
-msgstr "Versión:\t%s"
+msgid "Version:\t\t%s"
+msgstr "Versión:\t\t%s"
 
-msgid "Build:\t%s"
-msgstr "Compilación:\t%s"
+msgid "Build:\t\t%s"
+msgstr "Compilación:\t\t%s"
 
-msgid "Kernel:\t%s"
-msgstr "Kernel:\t%s"
+msgid "Kernel:\t\t%s"
+msgstr "Kernel:\t\t%s"
 
-msgid "Last update:\t%s"
-msgstr "Última actualización:\t%s"
+msgid "Last update:\t\t%s"
+msgstr "Última actualización:\t\t%s"
 
-msgid "Drivers:\t%s"
-msgstr "Drivers:\t%s"
+msgid "Drivers:\t\t%s"
+msgstr "Drivers:\t\t%s"
 
-msgid "Frontprocessor version: %s"
-msgstr "Versión del frontprocessor: %s"
+msgid "Frontprocessor version:\t%s"
+msgstr "Versión del frontprocessor:\t%s"
 
-msgid "GStreamer:\t%s"
-msgstr "GStreamer:\t%s"
+msgid "GStreamer:\t\t%s"
+msgstr "GStreamer:\t\t%s"
 
 msgid "System temperature:\t%s"
 msgstr "Temperatura del sistema:\t%s"
