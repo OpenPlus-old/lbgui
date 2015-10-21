@@ -16816,8 +16816,8 @@ msgstr "Compilación:\t\t%s"
 msgid "Kernel:\t\t%s"
 msgstr "Kernel:\t\t%s"
 
-msgid "Last update:\t\t%s"
-msgstr "Última actualización:\t\t%s"
+msgid "Last update:\t%s"
+msgstr "Última actualización:\t%s"
 
 msgid "Drivers:\t\t%s"
 msgstr "Drivers:\t\t%s"
