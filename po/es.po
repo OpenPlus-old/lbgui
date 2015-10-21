@@ -1,7 +1,7 @@
 # Spanish translations for Enigma2.
 #
-msgid ""msgid "Translations"
-msgstr "Traducciones"
+msgid ""
+msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-05 14:38+0000\n"
