@@ -20,10 +20,10 @@ from re import search
 
 def getAboutText():
 	AboutText = ""
-	AboutText += _("Model:\t%s %s\n") % (getMachineBrand(), getMachineName())
+	AboutText += _("Model:\t\t%s %s\n") % (getMachineBrand(), getMachineName())
 
 	if path.exists('/proc/stb/info/chipset'):
-		AboutText += _("Chipset:\t%s") % about.getChipSetString() + "\n"
+		AboutText += _("Chipset:\t\t%s") % about.getChipSetString() + "\n"
 
 	cpuMHz = ""
 	if path.exists('/proc/cpuinfo'):
@@ -40,29 +40,29 @@ def getAboutText():
 		except:
 			pass
 
-	AboutText += _("CPU:\t%s") % about.getCPUString() + cpuMHz + "\n"
-	AboutText += _("Cores:\t%s") % about.getCpuCoresString() + "\n"
+	AboutText += _("CPU:\t\t%s") % about.getCPUString() + cpuMHz + "\n"
+	AboutText += _("Cores:\t\t%s") % about.getCpuCoresString() + "\n"
 
-	AboutText += _("Version:\t%s") % getImageVersion() + "\n"
-	AboutText += _("Build:\t%s") % getImageBuild() + "\n"
-	AboutText += _("Kernel:\t%s") % about.getKernelVersionString() + "\n"
+	AboutText += _("Version:\t\t%s") % getImageVersion() + "\n"
+	AboutText += _("Build:\t\t%s") % getImageBuild() + "\n"
+	AboutText += _("Kernel:\t\t%s") % about.getKernelVersionString() + "\n"
 
 	string = getDriverDate()
 	year = string[0:4]
 	month = string[4:6]
 	day = string[6:8]
 	driversdate = '-'.join((year, month, day))
-	AboutText += _("Drivers:\t%s") % driversdate + "\n"
+	AboutText += _("Drivers:\t\t%s") % driversdate + "\n"
 
 	AboutText += _("Last update:\t%s") % getEnigmaVersionString() + "\n\n"
 
-	AboutText += _("GStreamer:\t%s") % about.getGStreamerVersionString() + "\n"
+	AboutText += _("GStreamer:\t\t%s") % about.getGStreamerVersionString() + "\n"
 
 	fp_version = getFPVersion()
 	if fp_version is None:
 		fp_version = ""
 	elif fp_version != 0:
-		fp_version = _("Frontprocessor version: %s") % fp_version
+		fp_version = _("Frontprocessor version:\t%s") % fp_version
 		AboutText += fp_version + "\n"
 
 	tempinfo = ""
@@ -85,7 +85,7 @@ def getAboutText():
 		f.close()
 	if tempinfo and int(tempinfo.replace('\n', '')) > 0:
 		mark = str('\xc2\xb0')
-		AboutText += _("Processor temperature:\t%s") % tempinfo.replace('\n', '').replace(' ','') + mark + "C\n"
+		AboutText += _("Processor temperature:\t\t%s") % tempinfo.replace('\n', '').replace(' ','') + mark + "C\n"
 	AboutLcdText = AboutText.replace('\t', ' ')
 
 	return AboutText, AboutLcdText
@@ -109,7 +109,7 @@ class About(Screen):
 			})
 
 	def populate(self):
-		self["lab1"] = StaticText(_("openplus"))
+		self["lab1"] = StaticText(_("OpenPlus"))
 		self["lab2"] = StaticText(_("By openplus Image Team"))
 		model = None
 		self["lab3"] = StaticText(_("Support at") + " www.open-plus.es")
@@ -632,3 +632,4 @@ class TranslationInfo(Screen):
 				"cancel": self.close,
 				"ok": self.close,
 			})
+			
