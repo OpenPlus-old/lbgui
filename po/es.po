@@ -19,6 +19,9 @@ msgstr ""
 msgid "Stop recording now"
 msgstr "Detener grabación"
 
+msgid "History Zap..."
+msgstr "Historial de zapping..."
+
 msgid "Change next timer"
 msgstr "Cambiar próximo temporizador"
 
