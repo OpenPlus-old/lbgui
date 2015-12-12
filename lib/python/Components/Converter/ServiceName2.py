@@ -237,7 +237,7 @@ class ServiceName2(Converter, object):
 			elif f == 's':	# %s - system (dvb-s/s2/c/t)
 				if type == 'DVB-S':
 					x = self.tpdata.get('system', 0)
-					result += x in range(2) and {0:'DVB-S',1:'DVB-S2'}[x] or ''
+					result += x in range(2) and {0:'SAT',1:'SAT'}[x] or ''
 				else:
 					result += type
 			elif f == 'F':	# %F - frequency (dvb-s/s2/c/t) in KHz
