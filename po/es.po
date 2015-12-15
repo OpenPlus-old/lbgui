@@ -17305,3 +17305,15 @@ msgstr ""
 "\n"
 "La conexión a internet está funcionando ahora.\n"
 "\n"
+
+#: Info
+msgid "Playback Time:"
+msgstr "Tiempo Reproducción:"
+
+#: Info
+msgid "Program Duration:"
+msgstr "Duración del Programa:"
+
+#: Info
+msgid "You're watching..."
+msgstr "Estás viendo..."
