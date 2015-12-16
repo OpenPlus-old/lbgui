@@ -17317,3 +17317,51 @@ msgstr "Duración del Programa:"
 #: Info
 msgid "You're watching..."
 msgstr "Estás viendo..."
+
+#: Info
+msgid "CLICK      TO RECORD SELECTED PROGRAM"
+msgstr "PULSA     PARA GRABAR PROGRAMA SELECCIONADO"
+
+#: Info
+msgid "SEARCH"
+msgstr "BÚSQUEDA"
+
+#: Info
+msgid "PROGRAMS TV"
+msgstr "PROGRAMAS"
+
+#: Info
+msgid "DESCRIPTION"
+msgstr "DESCRIPCIÓN"
+
+#: Info
+msgid "GUIDE"
+msgstr "GUÍA"
+
+#: Info
+msgid "MULTIGUID"
+msgstr "MULTIGUÍA"
+
+#: Info
+msgid "LIST"
+msgstr "LISTA"
+
+#: Info
+msgid "CHANNELS"
+msgstr "CANALES"
+
+#: Info
+msgid "MUSIC"
+msgstr "MÚSICA"
+
+#: Info
+msgid "       +MORE INFO "
+msgstr "       +MÁS INFO "
+
+#: Info
+msgid "                                      RECORD PROGRAM"
+msgstr "                                      GRABAR PROGRAMA"
+
+#: Info
+msgid "CHOOSE THE CHANNEL TO RECORD , AND THEN PRESS BLUE BUTTON"
+msgstr "ESCOJE EL CANAL PARA GRABAR, Y LUEGO PULSA BOTÓN AZUL"
