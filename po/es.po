@@ -6512,7 +6512,7 @@ msgstr "Grabaciones..."
 
 #
 msgid "Recording"
-msgstr "Grabando"
+msgstr "Grabación"
 
 msgid "Recording settings"
 msgstr "Configurar grabaciones"
@@ -17365,3 +17365,15 @@ msgstr "                                      GRABAR PROGRAMA"
 #: Info
 msgid "CHOOSE THE CHANNEL TO RECORD , AND THEN PRESS BLUE BUTTON"
 msgstr "ESCOJE EL CANAL PARA GRABAR, Y LUEGO PULSA BOTÓN AZUL"
+
+#: Info
+msgid " Translation of Enigma:"
+msgstr " Traducción de Enigma:"
+
+#: Info
+msgid " Translation Plugins:"
+msgstr " Traducción de Plugins:"
+
+#: Info
+msgid "MY MOVIE"
+msgstr "MI CANAL"
