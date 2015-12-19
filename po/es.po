@@ -17377,3 +17377,11 @@ msgstr " Traducción de Plugins:"
 #: Info
 msgid "MY MOVIE"
 msgstr "MI CANAL"
+
+#: YouTubeSearch.py:86
+msgid "YouTube search"
+msgstr "Búsqueda Youtube"
+
+#: YouTubeDownload.py:153 YouTubeUi.py:1097
+msgid "Active video downloads"
+msgstr "Descargas activas"
