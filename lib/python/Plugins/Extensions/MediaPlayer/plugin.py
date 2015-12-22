@@ -1271,7 +1271,7 @@ def Plugins(**kwargs):
 			where = [
 			PluginDescriptor.WHERE_PLUGINMENU
 			],
-			icon = "MediaPlayerhd.png",
+			icon = "MediaPlayer.png",
 			needsRestart = False,
 			fnc = main
 			),
