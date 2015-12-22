@@ -17385,3 +17385,11 @@ msgstr "Búsqueda Youtube"
 #: YouTubeDownload.py:153 YouTubeUi.py:1097
 msgid "Active video downloads"
 msgstr "Descargas activas"
+
+#: Info
+msgid "Scan files..."
+msgstr "Buscar archivos..."
+
+#: Info
+msgid "Play back media files"
+msgstr "Reproduzca archivos multimedia"
