@@ -17393,3 +17393,7 @@ msgstr "Buscar archivos..."
 #: Info
 msgid "Play back media files"
 msgstr "Reproduzca archivos multimedia"
+
+#
+msgid "Advanced Options"
+msgstr "Opciones avanzadas"
