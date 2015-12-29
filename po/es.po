@@ -17397,3 +17397,7 @@ msgstr "Reproduzca archivos multimedia"
 #
 msgid "Advanced Options"
 msgstr "Opciones avanzadas"
+
+#: Info
+msgid "PHOTO"
+msgstr "FOTOS"
