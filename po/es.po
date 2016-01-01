@@ -14210,7 +14210,7 @@ msgstr "Instalando servicio"
 
 #: Download Netzwerk Dienste
 msgid "Removing Service"
-msgstr "Desinstalando servicio"
+msgstr "Desinstalando..."
 
 #: Backup/restore
 msgid "Restore Plugins"
