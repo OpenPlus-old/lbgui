@@ -17404,7 +17404,7 @@ msgstr "FOTOS"
 
 #: udpxy
 msgid "Send Cfg"
-msgstr "Enviar Cfg"
+msgstr "Enviar lista"
 
 #: udpxy
 msgid "Client IP"
@@ -17465,3 +17465,22 @@ msgstr "Configuración guardada, y el servicio reiniciado!"
 #: udpxy
 msgid "Movistar+ Iptv Server"
 msgstr "Movistar+ Iptv Servidor"
+
+#: udpxy
+msgid "Udpxy Setup"
+msgstr "Movistar+ Iptv Servidor"
+
+#: udpxy
+msgid ""
+"Press the green button to send channel list to another receiver of your "
+"network"
+msgstr ""
+"Pulse el botón verde, para enviar lista de canales a otro receptor de su red"
+
+#: udpxy
+msgid ""
+"Press the yellow button to configure channel list sent to another receiver "
+"in your network. Press blue button to download the list m3u media/hdd."
+msgstr ""
+"Pulse el botón amarillo, para configurar envio de lista de canales a otro "
+"receptor en su red. Pulse botón azul para descargar la lista m3u a media/hdd."
