@@ -17401,3 +17401,68 @@ msgstr "Opciones avanzadas"
 #: Info
 msgid "PHOTO"
 msgstr "FOTOS"
+
+
+#: udpxy
+msgid "Send Cfg"
+msgstr "Enviar Cfg"
+
+#: udpxy
+msgid "Client IP"
+msgstr "Ip Cliente"
+
+#: udpxy
+msgid "Client User"
+msgstr "Usuario Cliente"
+
+#: udpxy
+msgid "Client Password"
+msgstr "Contraseña Cliente"
+
+#: udpxy
+msgid "Sharing config..."
+msgstr "Compartir config... "
+
+#: udpxy
+msgid "Update config by ftp"
+msgstr "Actualizar config por FTP"
+
+#: udpxy
+msgid "Transfer was successfully finished"
+msgstr "Transferecia completada con éxito"
+
+#: udpxy
+msgid "Transfer was finished with errors: %s"
+msgstr "Transferecia completada con errores: %s"
+
+#: udpxy
+msgid "Movistar+ Iptv Server Config"
+msgstr "Configuración Movistar Iptv Server"
+
+#: udpxy
+msgid "Movistar+ Iptv Config Sharing"
+msgstr "Configuración compartir Movistar Iptv"
+
+#: udpxy
+msgid "Down m3u"
+msgstr "Descargar m3u"
+
+#: udpxy
+msgid "Send Conf"
+msgstr "Enviar conf."
+
+#: udpxy
+msgid "Udpxy Server IP"
+msgstr "IP Servidor"
+
+#: udpxy
+msgid "Udpxy Server port"
+msgstr "Puerto servidor"
+
+#: udpxy
+msgid "Configuration is saved and service restarted"
+msgstr "Configuración guardada, y el servicio reiniciado!"
+
+#: udpxy
+msgid "Movistar+ Iptv Server"
+msgstr "Movistar+ Iptv Servidor"
