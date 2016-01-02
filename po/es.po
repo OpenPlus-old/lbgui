@@ -17402,7 +17402,6 @@ msgstr "Opciones avanzadas"
 msgid "PHOTO"
 msgstr "FOTOS"
 
-
 #: udpxy
 msgid "Send Cfg"
 msgstr "Enviar Cfg"
