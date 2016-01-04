@@ -17489,3 +17489,27 @@ msgstr ""
 "continuación pulse el botón amarillo, para configurar y enviar la lista de "
 "canales a otro receptor en su red. Pulse botón azul para descargar la lista "
 "m3u a media/hdd."
+
+#: meteo
+msgid "OpenPlus! YWeather Configuration"
+msgstr "OpenPlus! YTiempo Configuración"
+
+#: meteo
+msgid "You can find your ID in http://metrixweather.open-store.net/"
+msgstr "Podrás encontrar tu ID en http://metrixweather.open-store.net/"
+
+#: meteo
+msgid "Feeling:"
+msgstr "Sensación"
+
+#: meteo
+msgid "Humidity:"
+msgstr "Humedad:"
+
+#: meteo
+msgid "Wind:"
+msgstr "Viento:"
+
+#: meteo
+msgid "Current:"
+msgstr "Actual:"
