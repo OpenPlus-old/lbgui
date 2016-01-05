@@ -17500,7 +17500,7 @@ msgstr "Podrás encontrar tu ID en http://open-plus.es/YWeather/"
 
 #: meteo
 msgid "Feeling:"
-msgstr "Sensación"
+msgstr "Sensación:"
 
 #: meteo
 msgid "Humidity:"
