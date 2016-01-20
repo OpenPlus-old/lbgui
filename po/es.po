@@ -17028,7 +17028,7 @@ msgid "Time range:"
 msgstr "Intervalo de tiempo:"
 
 msgid "Usage & GUI"
-msgstr "Uso y GUI"
+msgstr "Configurar Interfaz y uso"
 
 msgid "Recordings & Timeshift"
 msgstr "Grabaciones y Timeshift"
