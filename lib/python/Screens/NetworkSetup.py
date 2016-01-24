@@ -4045,32 +4045,49 @@ class udpxySendConfig(ConfigListScreen, Screen):
 		config.networkiptv.udpxyloginclient.save()
 		config.networkiptv.udpxypassclient.save()
 		configfile.save()
+		## Send by FTP
 		try:
 			import ftplib
 			_ip = config.networkiptv.udpxyipclient.getText() 
 			ftp = ftplib.FTP(_ip)
 			ftp.login(config.networkiptv.udpxyloginclient.value, config.networkiptv.udpxypassclient.value)
+			#Baja el fichero /etc/enigma2/bouquets.tv a /tmp/bouquets.tv
 			ftp.cwd("/etc/enigma2")
 			myfile = open("/tmp/bouquets.tv", 'wb')
 			ftp.retrbinary('RETR bouquets.tv', myfile.write)
 			myfile.close()
+			#Parchea el fichero anadiendo la linea #SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquetsmp.iptv.tv
 			myfile = open("/tmp/bouquets.tv",'r')
 			find="0"
 			for line in myfile:
 				if line.find('userbouquetsmp.iptv.tv') >= 0:
+					# La linea ya existe
 					find=line
+				#Anade retorno de carro en la ultima linea si no lo contiene
+				#if (line[:-1] == "\n"):
+				#	print ("LINEA: %s" % hex(ord(line[:-1])))
+				#	_addline=False
+				#else:
+				#	_addline=True
 				
 			myfile.close()
 			if (find != "0"):
+				# Reemplaza la linea
 				self.strReplace("/tmp/bouquets.tv", find, "#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquetsmp.iptv.tv")
 			else:
+				#Anade una linea al fichero
 				myfile = open ("/tmp/bouquets.tv", "a")
+				# A mirar
+				#if _addline:
+				#	myfile.write("\n")	
 				myfile.write("#SERVICE: 1:7:1:0:0:0:0:0:0:0:userbouquetsmp.iptv.tv\n")
 				myfile.close()
+			# Sube el fichero al deco cliente
 			ftp.cwd("/etc/enigma2")
 			myfile = open("/tmp/bouquets.tv", 'r')
 			ftp.storlines('STOR ' + "bouquets.tv", myfile)
 			myfile.close()
+			# Sube el fichero de la lista de canales al nuevo deco
 			ftp.cwd("/etc/enigma2")
 			myfile = open("/etc/enigma2/userbouquetsmp.iptv.tv", 'r')
 			ftp.storlines('STOR ' + "userbouquetsmp.iptv.tv", myfile)
@@ -4130,7 +4147,7 @@ class udpxyConfig(ConfigListScreen, Screen):
 		if 'Collected errors' in str:
 			self.session.openWithCallback(self.close, MessageBox, _("A background update check is in progress, please wait a few minutes and try again."), type=MessageBox.TYPE_INFO, timeout=10, close_on_any_key=True)
 		elif not str:
-			self.feedscheck = self.session.open(MessageBox,_('Please wait while feeds state is checked.'), MessageBox.TYPE_INFO, enable_input = False)
+			self.feedscheck = self.session.open(MessageBox,_('Please wait whilst feeds state is checked...'), MessageBox.TYPE_INFO, enable_input = False)
 			self.feedscheck.setTitle(_('Checking Feeds'))
 			cmd1 = "opkg update"
 			self.CheckConsole = Console()
@@ -4268,7 +4285,7 @@ class udpxyServer(Screen):
 		print "doInstall " ,callback, pkgname
 		self.message = self.session.open(MessageBox,_("please wait..."), MessageBox.TYPE_INFO, enable_input = False)
 		self.message.setTitle(_('Installing Service'))
-		self.Console.ePopen('/usr/bin/opkg install enigma2-plugin-extensions-udpxyserver && /usr/bin/opkg install enigma2-plugin-settings-openplus.movistar.e2.iptv', callback)
+		self.Console.ePopen('/usr/bin/opkg install enigma2-plugin-extensions-udpxyserver', callback)
 
 	def installComplete(self,result = None, retval = None, extra_args = None):
 		self.session.open(TryQuitMainloop, 2)
@@ -4290,15 +4307,7 @@ class udpxyServer(Screen):
 	def doRemove(self, callback, pkgname):
 		self.message = self.session.open(MessageBox,_("please wait..."), MessageBox.TYPE_INFO, enable_input = False)
 		self.message.setTitle(_('Removing Service'))
-		self.Console.ePopen('/usr/bin/opkg remove ' + pkgname + ' enigma2-plugin-settings-openplus.movistar.e2.iptv --force-remove --autoremove --force-depends', callback)
-		config.networkiptv.udpxyport.setValue("8088")
-		config.networkiptv.udpxyipserver.setValue([127,0,0,1])
-		config.networkiptv.udpxyipclient.setValue([192,168,0,1])
-		config.networkiptv.udpxyloginclient.setValue("root")
-		config.networkiptv.udpxypassclient.setValue("")
-		config.networkiptv.udpxyport.save()
-		config.networkiptv.udpxyipserver.save()
-		configfile.save()
+		self.Console.ePopen('/usr/bin/opkg remove ' + pkgname + ' --force-remove --autoremove --force-depends', callback)
 
 	def removeComplete(self,result = None, retval = None, extra_args = None):
 		self.session.open(TryQuitMainloop, 2)
