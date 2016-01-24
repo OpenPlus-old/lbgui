@@ -96,6 +96,8 @@ typedef struct {
 } mhw_channel_equiv_t;
 #endif
 
+time_t parsetime(__u8 t1, __u8 t2, __u8 t3, __u8 t4, __u8 t5, __u16 *hash=0);
+
 class eventData;
 class eServiceReferenceDVB;
 class eDVBServicePMTHandler;
@@ -210,7 +212,7 @@ public:
 	}
 	time_t getStartTime()
 	{
-		return parseDVBtime(EITdata[2], EITdata[3], EITdata[4], EITdata[5], EITdata[6]);
+		return parsetime(EITdata[2], EITdata[3], EITdata[4], EITdata[5], EITdata[6]);
 	}
 	int getDuration()
 	{
@@ -218,6 +220,7 @@ public:
 	}
 };
 #endif
+
 
 #ifdef ENABLE_FREESAT
 #include <bitset>
