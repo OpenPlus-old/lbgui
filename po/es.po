@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-05 14:38+0000\n"
-"PO-Revision-Date: 2016-01-27 20:52+0100\n"
-"Last-Translator: Orerivia <openplus@open-plus.es>\n"
+"PO-Revision-Date: 2016-02-02 19:31+0100\n"
+"Last-Translator: Joan González - Jglez3 <joan@gonzalezcrego.es>\n"
 "Language-Team: OpenPlus <www.open-plus.es>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1309,7 +1309,7 @@ msgid "Background delete option"
 msgstr "Opción para borrar en segundo plano"
 
 msgid "Background delete speed"
-msgstr "Velocidad al borraren segundo plano"
+msgstr "Velocidad al borrar en segundo plano"
 
 msgid "Backup completed."
 msgstr "Copia de seguridad terminada."
@@ -2657,6 +2657,12 @@ msgstr "Visualizar los contenidos 4:3 como"
 msgid "Display >16:9 content as"
 msgstr "Visualizar los contenidos >16:9 como"
 
+msgid "HDMI Colorspace"
+msgstr "Rango de color HDMI"
+
+msgid "This option allows you can config the Colorspace from Auto to RBG"
+msgstr "Esta opción ter permite configurar el rango de color de Auto a RGB."
+
 #
 msgid "Display"
 msgstr "LCD"
@@ -2667,6 +2673,18 @@ msgstr "Ajustes de LCD"
 
 msgid "Configure the brightness level of the front panel display for normal operation."
 msgstr "Configura el nivel de brillo del LCD durante su uso."
+
+msgid "Brightness (Dimmed)"
+msgstr "Brillo (tenue)"
+
+msgid "Configure the brightness level of the front panel display for dimmed operation."
+msgstr "Configura el nivel de brillo del LCD atenuado."
+
+msgid "Dim delay"
+msgstr "Retraso de luz tenue"
+
+msgid "Dim the LCD after specified time"
+msgstr "Atenuar el LCD tras el tiempo especificado"
 
 msgid "Configure the brightness level of the front panel display for standby."
 msgstr "Configura el nivel de brillo del LCD en modo espera."
@@ -3888,6 +3906,9 @@ msgstr "Tono"
 
 msgid "Smooth"
 msgstr "Suavizar"
+
+msgid "This option allows you enable smoothing filter to control the dithering process."
+msgstr "Este opción te permite habilitar el filtro de suavizado para controlar el proceso de interpolación."
 
 msgid "IMDb Details"
 msgstr "Detalles IMDb"
@@ -5467,6 +5488,27 @@ msgstr "Configurar control paterno"
 msgid "Parental control type"
 msgstr "Tipo de control paterno"
 
+msgid "Change PIN"
+msgstr "Cambiar PIN"
+
+msgid "Hide parental locked services"
+msgstr "Esconder canales bloqueados"
+
+msgid "Protect on epg age"
+msgstr "Proteger según la edad que indica el EPG"
+
+msgid "No age block"
+msgstr "Sin bloqueo"
+
+msgid "Reload blacklists"
+msgstr "Recargar lista negra"
+
+msgid "Protect Screens"
+msgstr "Proteger menús"
+
+msgid "Protect context menus"
+msgstr "Proteger menús contextuales"
+
 #
 msgid "Password"
 msgstr "Contraseña"
@@ -6695,6 +6737,9 @@ msgstr "Nitidez del escalado"
 msgid "Scaler vertical dejagging"
 msgstr "Escalar dejagging vertical"
 
+msgid "This option allows you enable the vertical scaler dejagging."
+msgstr "Esta opción te permite habilitar el escalado ‘dejagging’ vertical."
+
 #
 msgid "Scaling Mode"
 msgstr "Modo de escalado"
@@ -7895,7 +7940,7 @@ msgid "Can be used for different fps between external subtitles and video."
 msgstr "Puede usarse para distintos fps entre subtítulos externos y vídeos."
 
 msgid "HI-cleanup for external subtitles"
-msgstr "HI-cleanup para subtítulos externos"
+msgstr "Quitar subtítulos para sordos de los subtítulos externos"
 
 msgid "Remove texts for the hearing impaired from external subtitles (instrumental music or environmental sounds, e.g., when a doorbell rings or a gun shot is heard)."
 msgstr "Borrar textos para sordos de los subtítulos externos (música instrumental o sonido ambiental, por ejemplo cuando suena el timbre o se dispara un arma)"
@@ -14551,6 +14596,9 @@ msgstr "Esta opción te permite comprobar el bypass HDMI EDID"
 msgid "Color space"
 msgstr "Espacio de color"
 
+msgid "This option sets the picture color space."
+msgstr "Esta opción configura el rango de color de la imagen."
+
 msgid "InfoBar EPG mode"
 msgstr "Modo barra de información EPG"
 
@@ -16400,11 +16448,20 @@ msgstr "Qué día del mes?"
 msgid "External subtitle switchs fonts"
 msgstr "Cambiar fuente de subtítulo externo"
 
+msgid "Configure if the subtitle should switch between normal, iatlic, bold and bolditalic"
+msgstr "Configure si el subtítulo debe cambiar entre normal, cursiva, negrita o cursiva y negrita."
+
 msgid "External subtitle dialog colorisation"
 msgstr "Coloración del diálogo de subtítulos externos"
 
+msgid "Replace `- ` in dialogs with colored text per speaker (like teletext subtitles for the hearing impaired)"
+msgstr "Reemplazar `- ` en los diálogos con texto en color (como los subtítulos del teletexto para sordos)"
+
 msgid "Rewrap subtitles"
 msgstr "Volver a envolver subtítulos"
+
+msgid "When enabled, reformat subtitles to match the width of the screen"
+msgstr "Si está activado, los subtítulos se adaptan al ancho de la pantalla"
 
 msgid "Show status messages when switch to live TV"
 msgstr "Mostrar mensajes de estado cuando se cambie a TV en vivo"
@@ -16415,26 +16472,50 @@ msgstr "Incluir AIT en grabaciones"
 msgid "Remember last service in PiP"
 msgstr "Recordar último servicio en PiP"
 
+msgid "Configure if and how long the latest service in the PiP will be remembered"
+msgstr "Configura si y cuanto tiempo será recordado el último canal usado en PiP"
+
 msgid "Enable unlinked bouquets"
 msgstr "Habilitar bouquets desvinculados"
 
+msgid "When enabled, Enigma2 will load unlinked bouquets. This means that bouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
+msgstr "Si está activado, Enigma2 cargará los bouquets desvinculados. Los bouquets disponibles pero no incluidos en bouquets.tv y bouquets.radio se cargarán igualmente. Esto te permite, por ejemplo, mantener tu propio bouquet aunque se actualice la lista de canales."
+
 msgid "Panic channel"
 msgstr "Canal de pánico"
+
+msgid "Pressing the panic button will zap you to this channelnumber in your first bouquet"
+msgstr "Pulsando el botón del pánico irás a este número de canal de tu primer bouquet"
 
 msgid "Service picons downsize"
 msgstr "Reducir tamaño de picons"
 
 msgid "Channel zap delay mode"
-msgstr ""
+msgstr "Modo retraso en zapeo"
+
+msgid "Setup delay mode to zap to channels."
+msgstr "Configura el modo de retraso al hacer zapping."
 
 msgid "Channel zap delay first button"
-msgstr ""
+msgstr "Retraso del primer botón al hacer zapping"
+
+msgid "User defined delay when you press the first button to zap to the channel."
+msgstr "Retraso definido por el usuario al pulsar el primer botón para hacer zapping."
 
 msgid "Channel zap delay another button"
-msgstr ""
+msgstr "Retraso de otro botón al hacer zapping"
+
+msgid "User defined delay when you press another button to zap to the channel."
+msgstr "Retraso definido por el usuario al pulsar otro botón para hacer zapping."
 
 msgid "Number of digits in channel number"
 msgstr "Dígitos en el número de canal"
 
+msgid "This allows you to set the number of digits to 5, if you have more than 9999 channels."
+msgstr "Te permite habilitar 5 dígitos si tienes más de 9999 canales."
+
 msgid "Load unlinked userbouquets"
 msgstr "Cargar bouquets de usuario desvinculados"
+
+msgid "When enabled enigma2 will load unlinked userbouquets. This means that userbouquets that are available, but not included in the bouquets.tv or bouquets.radio files, will still be loaded. This allows you for example to keep your own user bouquet while installed settings are upgraded"
+msgstr "Si está activado, Enigma2 cargará los bouquets desvinculados. Los bouquets disponibles pero no incluidos en bouquets.tv y bouquets.radio se cargarán igualmente. Esto te permite, por ejemplo, mantener tu propio bouquet aunque se actualice la lista de canales."
