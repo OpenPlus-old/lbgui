@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-05 14:38+0000\n"
-"PO-Revision-Date: 2016-02-02 19:31+0100\n"
+"PO-Revision-Date: 2016-02-02 22:11+0100\n"
 "Last-Translator: Joan González - Jglez3 <joan@gonzalezcrego.es>\n"
 "Language-Team: OpenPlus <www.open-plus.es>\n"
 "Language: es\n"
@@ -7264,10 +7264,10 @@ msgid "Set the time to hide the second infobar. The bar also disappears on press
 msgstr "Configura el tiempo antes de ocultar la segunda barra de información. También se oculta pulsando ‘OK’."
 
 msgid "When nonzero, a recording will start earlier than the starting time indicated by the EPG."
-msgstr "En Nonzero, la grabación comenzará antes del tiempo de inicio indicado por EPG."
+msgstr "Cuando el valor sea distinto a cero, la grabación comenzará antes del tiempo de inicio indicado por EPG."
 
 msgid "When nonzero, a recording will stop later than the ending time indicated by the EPG."
-msgstr "En Nonzero, la grabación se detendrá después del tiempo de finalización indicado por EPG."
+msgstr "Cuando el valor sea distinto a cero, la grabación se detendrá después del tiempo de finalización indicado por EPG."
 
 msgid "Set the type of the progress indication in the channel selection screen."
 msgstr "Configura el tipo de indicación de progreso en la pantalla de selección de canales."
@@ -13798,7 +13798,7 @@ msgid "Margin after record (minutes)"
 msgstr "Margen después de grabar (minutos)"
 
 msgid "When nonzero, a recording will stop later than the ending time as indicated by the EPG."
-msgstr "En Nonzero, la grabación se detendrá después del tiempo de finalización indicado por EPG."
+msgstr "Cuando el valor sea distinto a cero, la grabación se detendrá después del tiempo de finalización indicado por EPG."
 
 msgid "Configure on which devices the background delete option should be used."
 msgstr "Configurar en qué dispositivos debe usarse la opción de borrar copias de seguridad en segundo plano."
@@ -14007,7 +14007,7 @@ msgstr "Tamaño de fuente del programa"
 
 #
 msgid "When nonzero, a recording will start earlier than the starting time as indicated by the EPG."
-msgstr "En Nonzero, la grabación comenzará antes del tiempo de inicio indicado por EPG."
+msgstr "Cuando el valor sea distinto a cero, la grabación comenzará antes del tiempo de inicio indicado por EPG."
 
 #
 msgid "When enabled, a popup message will be shown when a recording starts."
